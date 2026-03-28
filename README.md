@@ -61,9 +61,9 @@ This project is an **Automated API Security Testing Framework** designed to iden
 ```
 api-security-testing-framework/
 │
-├── api_server.py        # Flask API with vulnerabilities & fixes
-├── api_scanner.py       # Automated security scanner
-├── report.txt           # Generated scan report
+├── api_server.py        
+├── api_scanner.py       
+├── report.txt           
 ├── README.md
 ```
 
