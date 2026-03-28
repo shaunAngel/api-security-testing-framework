@@ -45,16 +45,16 @@ def login():
 
 # GOOGLE LOGIN WIP
 # OAUTH (SIMULATED)
-#@app.route("/oauth/login", methods=["GET"])
-#def oauth_login():
+@app.route("/oauth/login", methods=["GET"])
+def oauth_login():
     # Simulated OAuth login (for testing)
-#    fake_user = {"id": 3, "username": "google_user"}
-#    token = create_access_token(identity=str(fake_user["id"]))
-#
-#    return jsonify({
-#        "message": "OAuth login success",
-#        "token": token
-#    })
+    fake_user = {"id": 3, "username": "google_user"}
+    token = create_access_token(identity=str(fake_user["id"]))
+
+    return jsonify({
+        "message": "OAuth login success",
+        "token": token
+    })
 
 
 # GET USERS (Protected)
